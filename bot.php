@@ -10,8 +10,8 @@
 
 require __DIR__."/TelegramBot.php";
 $config = require __DIR__."/_config.php";
-$bot = new TelegramBot($config['bot_token']);
-$update = $bot->getData();
+$bot = new TelegramBot($config['bot_token'6409750057:AAFG6OQKA5ahfqzmt0oPHt0nBpWOLvYQlTw]);
+$update = $bot->getData(6409750057);
 
 function get($name){
 	$get = file_get_contents($name);
@@ -53,7 +53,7 @@ if(!get("obro/$chat_id/$uid.obro")){
 if($text=="/start"){
 	if($type=="private"){
 			$bot->sendMessage([
-				'chat_id' => $chat_id, 
+				'chat_id' => -1001763346295, 
 				'text' => "Salom *$ufname*!", 
 				'parse_mode' => "markdown"
 			]);
